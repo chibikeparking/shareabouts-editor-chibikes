@@ -5,7 +5,7 @@ Shareabouts Editor
 
 To get set up, run:
 
-    git clone git@github.com:openplans/shareabouts-editor-chibikes.git
+    git clone https://github.com/chibikeparking/shareabouts-editor-chibikes.git
     cd shareabouts-editor-chibikes
     npm install
     bower install
