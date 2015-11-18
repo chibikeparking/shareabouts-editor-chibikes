@@ -26,9 +26,15 @@ To deploy this repository to gh-pages, run the following commands **within a
 clean repository** (any files that are modified and not checked in will find
 their way into the distribution if your repository is not clean):
 
+
+### Build the project
+
     bower install
     grunt build
     git add --all dist
+
+### If build is successful, push to gh-pages
+
     git commit -m "Update the distribution files"
     git push
     git subtree push --prefix dist origin gh-pages
