@@ -31,10 +31,10 @@ their way into the distribution if your repository is not clean):
 
     bower install
     grunt build
-    git add --all dist
 
 ### If build is successful, push to gh-pages
 
+    git add --all dist
     git commit -m "Update the distribution files"
     git push
     git subtree push --prefix dist origin gh-pages
